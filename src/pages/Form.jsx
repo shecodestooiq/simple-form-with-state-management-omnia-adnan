@@ -11,7 +11,6 @@ function Form() {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(formData);
-        // setFormData();
     };
 
 
@@ -25,6 +24,7 @@ function Form() {
             value={formData.username}
             onChange={handleChange}
             required
+            placeholder="your real name"
             />
         </label> <br/>
         <label>
@@ -35,6 +35,7 @@ function Form() {
             value={formData.email}
             onChange={handleChange}
             required
+            placeholder="example@test.com"
             />
         </label> <br/>
         <label>
@@ -47,6 +48,7 @@ function Form() {
             required
             minLength={6}
             maxLength={12}
+            placeholder="Min 6 charaters long"
             />
         </label>
         <input type="submit" value="Submit" />

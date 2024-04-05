@@ -6,7 +6,8 @@ function App() {
   return (
     <>
     <InputContextprovider>
-    <Form />
+    <Form/>
+    console.log(Form);
     </InputContextprovider>
     </>
   );
