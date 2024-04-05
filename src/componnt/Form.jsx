@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import inputContext from "../stor/InputContextprovider"
+import inputContext from "../stor/InputContextprovider";
 
 function Form() {
     const {formData, setFormData} = useContext(inputContext);
